@@ -1,10 +1,6 @@
 import HttpStatus from "http-status-codes";
 
-export default (req, res) => {
-  const {
-    body: { beers, target },
-  } = req;
-
+export const findTwoBeers = (beers, target) => {
   let l = 0;
   let x = 0;
   let s = [];
@@ -24,9 +20,13 @@ export default (req, res) => {
     }
   }
 
-  return res.status(HttpStatus.OK).send({ index });
+  return { index };
 };
 
+export default (req, res) => {
+  const {
+    body: { beers, target },
+  } = req;
 
-
-
+  return res.status(HttpStatus.OK).send(findTwoBeers(beers, target));
+};
