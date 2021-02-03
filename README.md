@@ -29,8 +29,11 @@ npm run test
 ```
 ## Aws Test
 
-[https://rq7jipcpt7.execute-api.us-east-1.amazonaws.com/Test/findtwobeers](https://rq7jipcpt7.execute-api.us-east-1.amazonaws.com/Test/findtwobeers)
 
 ```bash
+
+Test with Postman
+url: https://rq7jipcpt7.execute-api.us-east-1.amazonaws.com/Test/findtwobeers
+
 Files ./aws/
 ```
