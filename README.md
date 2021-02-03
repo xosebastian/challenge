@@ -23,3 +23,9 @@ To run the app locally:
 npm run dev
 open http://localhost:5000
 ```
+
+## Run Test
+To run the app test:
+```bash
+npm run test
+```
