@@ -27,3 +27,8 @@ To run the app test:
 ```bash
 npm run test
 ```
+## Aws Test
+
+```bash
+https://rq7jipcpt7.execute-api.us-east-1.amazonaws.com/Test/findtwobeers
+```
