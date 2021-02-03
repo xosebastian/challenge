@@ -32,6 +32,5 @@ npm run test
 [https://rq7jipcpt7.execute-api.us-east-1.amazonaws.com/Test/findtwobeers](https://rq7jipcpt7.execute-api.us-east-1.amazonaws.com/Test/findtwobeers)
 
 ```bash
-
-asd
+Files ./aws/
 ```
