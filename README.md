@@ -9,13 +9,11 @@ Back-end Challenge
 - mocha v8
 
 ## Installation
-To run the app locally:
+To install the app locally:
 ```bash
 git clone https://github.com/xosebastian/challenge.git
 cd challenge
 npm install
-npm run dev
-open http://localhost:3000
 ```
 ## Run
 To run the app locally:
