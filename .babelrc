@@ -1,5 +1,6 @@
 {
   "presets": ["env"],
+  "plugins": [["@babel/transform-runtime"]],
   "env": {
     "debug": {
       "sourceMaps": "inline",
