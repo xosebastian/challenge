@@ -14,7 +14,7 @@ describe("Challenge tests using ASSERT interface from CHAI module: ", function (
 
     it("Check the returned value using: assert.lengthOf(value,'value'): ", function () {
       result = challenge.findTwoBeers([]);
-      assert.lengthOf(result, 10);
+      assert.lengthOf(result, 0);
     });
   });
 });
