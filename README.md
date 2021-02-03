@@ -27,13 +27,8 @@ To run the app test:
 ```bash
 npm run test
 ```
-## Aws Test
-
-
+## Aws
 ```bash
-
-Test with Postman
-url: https://rq7jipcpt7.execute-api.us-east-1.amazonaws.com/Test/findtwobeers
-
-Files ./aws/
+Test with Postman htps://rq7jipcpt7.execute-api.us-east-1.amazonaws.com/Test/findtwobeers
+package ./aws/findTwoBeers-fcb152b9-8138-458c-ad05-792f3355a9e6.zip
 ```
